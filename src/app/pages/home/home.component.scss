@@ -15,7 +15,8 @@ h1, h3, p{
 }
 
 .header-site{
-    background-image: url('src/assets/wpp01.jpg');
+    //background-image: linear-gradient(0deg,rgba(44,44,44,.2),rgba(224,23,3,.6)), url('src/assets/wpp01.jpg');
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)), url('src/assets/wpp01.jpg');
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23,10 +24,18 @@ h1, h3, p{
     color: #ffffff;
     padding-top: 300px;
     padding-bottom: 300px;
+    
+    /*background: linear-gradient(0deg,rgba(44,44,44,.2),rgba(224,23,3,.6));*/
+
 }
 
+/*.text-intro{
+    width: 100%;
+    
+}*/
 .logo-header{
-    width: 100px;   
+    width: 100px;
+
 }
 
 .intro{
@@ -39,7 +48,7 @@ h1, h3, p{
 }
 
 .img-site{
-    background-image: url('src/assets/wpp02.jpg');
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)), url('src/assets/wpp02.jpg');
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
