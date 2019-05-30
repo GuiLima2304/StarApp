@@ -16,7 +16,7 @@ h1, h3, p{
 
 .header-site{
     //background-image: linear-gradient(0deg,rgba(44,44,44,.2),rgba(224,23,3,.6)), url('src/assets/wpp01.jpg');
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)), url('src/assets/wpp01.jpg');
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)), url('src/assets/photo-intro.jpg');
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -24,15 +24,8 @@ h1, h3, p{
     color: #ffffff;
     padding-top: 300px;
     padding-bottom: 300px;
-    
-    /*background: linear-gradient(0deg,rgba(44,44,44,.2),rgba(224,23,3,.6));*/
 
 }
-
-/*.text-intro{
-    width: 100%;
-    
-}*/
 .logo-header{
     width: 100px;
 
@@ -48,7 +41,7 @@ h1, h3, p{
 }
 
 .img-site{
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)), url('src/assets/wpp02.jpg');
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)), url('src/assets/photo-intro02.jpg');
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -63,9 +56,20 @@ h1, h3, p{
 
 }
 
+.img-transition02{
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)), url('src/assets/photo-intro05.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    color: #fff;
+}
+
 .footer-site{
     background-color: #333;
     color: #fff;
-    padding-top: 150px;
-    padding-bottom: 150px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
