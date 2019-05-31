@@ -1,14 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Cantarell&display=swap');
-
-body{
-    
-}
-
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro&display=swap');
 
 .img{
     width:100%;
     height: 80%;
+    
 }
 
 .img:hover{
@@ -18,16 +14,18 @@ body{
 }
 
 .card{
-    margin: 40px;
-    padding: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 3%;
+    width: 80%;
+    height: 100%;
 }
 
 h1, h3, p{
-    font-family: 'Cantarell', sans-serif;
+    font-family: 'Source Serif Pro', serif;
 }
 
 .header-site{
-    //background-image: linear-gradient(0deg,rgba(44,44,44,.2),rgba(224,23,3,.6)), url('src/assets/wpp01.jpg');
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)), url('src/assets/photo-intro.jpg');
     background-position: center top;
     background-repeat: no-repeat;
@@ -64,7 +62,7 @@ h1, h3, p{
 }
 
 .transition{
-    font-family: 'Kaushan Script', cursive;
+    font-family: 'Playfair Display', serif;
 
 }
 
@@ -80,7 +78,6 @@ h1, h3, p{
 }
 
 .footer-site{
-    //background-color: #333;
     background-color: black;
     color: #fff;
     padding-top: 50px;
@@ -94,5 +91,15 @@ h1, h3, p{
 .contact{
     margin-top: 30px;
     border-bottom: 1px white solid;
+    width: 100%;
+}
 
+.contact-us img{
+    width: 100%;
+}
+#teste{
+    width: 3%;
+    margin-left: 11%;
+    margin-right: 11%;
+    margin-top: 2%;
 }
