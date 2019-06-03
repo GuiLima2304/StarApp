@@ -3,8 +3,6 @@
 
 .img{
     width:100%;
-    height: 80%;
-    
 }
 
 .img:hover{
@@ -14,11 +12,9 @@
 }
 
 .card{
-    margin-left: 10%;
-    margin-right: 10%;
     padding: 3%;
-    width: 80%;
-    height: 100%;
+   margin-bottom: 10%;
+   margin: 5%;
 }
 
 h1, h3, p{
@@ -93,13 +89,17 @@ h1, h3, p{
     border-bottom: 1px white solid;
     width: 100%;
 }
-
-.contact-us img{
-    width: 100%;
-}
-#teste{
+.contact-icone{
     width: 3%;
-    margin-left: 11%;
-    margin-right: 11%;
+    margin-left: 23%;
+    margin-right: 23%;
     margin-top: 2%;
+}
+
+a{
+   color: white;
+}
+
+a:hover{
+    color: black;
 }
